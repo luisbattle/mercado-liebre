@@ -1,0 +1,13 @@
+article img {
+  width: 100%;
+}
+
+/* .section article:lnth-child(2) {
+  font-weight: bold;
+  background-color: red;
+} */
+
+/* NO ME ANDUVO EL*/
+.section article:last-child {
+  font-weight: bold;
+}
