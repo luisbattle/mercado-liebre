@@ -1,6 +1,5 @@
 const path = require("path");
 const express = require("express");
-const { resolve } = require("path");
 const app = express();
 
 app.get("/", function (req, res) {
