@@ -7,36 +7,60 @@
   --verde: #39b54a;
 }
 
-header {
-  background-color: var(--amarillo);
-  font-family: "Roboto", sans-serif;
+body {
+  margin: 0;
 }
 
-section {
+#nav-menu {
+  font-size: 13px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#encabezado {
+  background-color: var(--amarillo);
+}
+
+.barra-busqueda {
+  display: flex;
+  justify-content: center;
+}
+
+#section {
   background-color: var(--gris-claro);
 }
+#section .section-ultima-visita {
+  text-align: center;
+  padding: 5px;
+  padding: 5px;
+}
+
 article img {
   width: 100%;
 }
 
 p {
   font-size: 12px;
-  font-family: "Roboto", sans-serif;
 }
 
 .titulares {
   font-size: 24px;
-  font-family: "Roboto", sans-serif;
   background-color: var(--gris-claro);
 }
 
 .precios {
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
 }
 .descuentos {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
   color: var(--verde);
 }
 
