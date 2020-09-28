@@ -7,6 +7,5 @@ Batalla Luis
 </pre>
 
 # Acceso de test
-<pre>
-[Link](https://www.google.com)
-</pre>
+[Link](http://asusrtiphome.asuscomm.com:9998/)
+
