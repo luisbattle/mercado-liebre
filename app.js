@@ -7,8 +7,8 @@ app.get("/", function (req, res) {
   res.sendFile(file);
 });
 
-app.get("/register", function (req, res) {
-  let file = path.resolve("vistas/register.html");
+app.get("/login", function (req, res) {
+  let file = path.resolve("vistas/login.html");
   res.sendFile(file);
 });
 

@@ -8,8 +8,8 @@
 }
 
 body {
-  margin: 0;
   background-color: var(--gris-claro);
+  margin: 0 !important;
 }
 
 #nav-menu {
@@ -189,7 +189,6 @@ footer {
   width: 100%;
   background-color: white;
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 footer div {
   padding-left: 5%;
@@ -210,6 +209,8 @@ footer p {
 .footer-copyright {
   margin-top: 20px;
   margin-bottom: 0;
+  padding-bottom: 5px;
+  text-align: center;
 }
 
 /* END FOOTER */

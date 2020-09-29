@@ -1,0 +1,138 @@
+:root {
+  --amarillo: #eac926;
+  --azul: #03264c;
+  --celeste: #1259c3;
+  --gris-oscuro: #666;
+  --gris-claro: #e0e0e0;
+  --verde: #39b54a;
+}
+
+body {
+  background-color: var(--gris-claro);
+  margin: 0 !important;
+}
+
+#nav-menu {
+  font-size: 13px;
+}
+
+.logo {
+  margin-top: 15px;
+  width: 20%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#encabezado {
+  background-color: var(--amarillo);
+}
+
+.barra-busqueda-container {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.barra-busqueda-container .barra-busqueda {
+  width: 50%;
+}
+.menu-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-container .menu-btn {
+  /* width: 40px;
+  height: 40px; */
+  font-size: 20px;
+  background-color: #0044aa;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.menu-btn:hover {
+  background-color: #0022aa;
+}
+#nav-menu {
+  display: none;
+}
+
+#banner img {
+  width: 100%;
+}
+
+#section {
+}
+/* MAIN LOGIN CONTAINER */
+#main-login-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+main div form input {
+  width: 80%;
+  font-size: 20px;
+  margin: 20px;
+  border-radius: 3%;
+  border: 0px;
+  background-color: rgb(241, 233, 233);
+}
+.main-login-btn-enviar {
+  margin-top: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 80%;
+  color: white;
+  border: 0;
+  border-radius: 4%;
+  background-color: #0044aa;
+}
+
+/* END MAIN LOGIN CONTAINER */
+
+/* FOOTER */
+footer {
+  width: 100%;
+  background-color: white;
+  margin-top: 20px;
+}
+footer div {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.footer-titles {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+footer div i {
+  margin-top: 30px;
+  color: rgb(0, 0, 95);
+}
+footer p {
+  margin: 0;
+}
+.footer-copyright {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+/* END FOOTER */
