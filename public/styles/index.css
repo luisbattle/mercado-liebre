@@ -169,17 +169,47 @@ article img {
 
 /* END   ARTICLE */
 
-.titulares {
-  font-size: 24px;
-  background-color: var(--gris-claro);
+/* OFERTAS */
+.main-ofertas {
+  text-align: center;
+  color: var(--gris-oscuro);
+  font-weight: bold;
+  font-size: 20px;
 }
+.main-ofertas-titulo {
+  text-align: center;
+  color: var(--gris-oscuro);
+  font-weight: bold;
+  font-size: 20px;
+}
+/* END OFERTAS */
 
-.descripciones {
-  font-size: 16px;
-}
+/* FOOTER */
 footer {
+  width: 100%;
+  background-color: white;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+footer div {
   padding-left: 5%;
   padding-right: 5%;
 }
+.footer-titles {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+footer div i {
+  margin-top: 30px;
+  color: rgb(0, 0, 95);
+}
+footer p {
+  margin: 0;
+}
+.footer-copyright {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+/* END FOOTER */
