@@ -46,12 +46,6 @@ body {
   font-size: 13px;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0 0 0 10px;
-  padding: 0;
-}
-
 a {
   text-decoration: none;
 }
@@ -59,17 +53,19 @@ a {
 #encabezado {
   background-color: var(--amarillo);
 }
-.logo-ml {
-  width: 20%;
-}
+
 .header-barra-busqueda-container {
   display: flex;
   flex-direction: column;
 }
+
 .header-logo-busqueda {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+}
+.logo-ml {
+  width: 50%;
 }
 .lupa {
   background-color: white;
@@ -137,7 +133,6 @@ ARTICLE
 *********************
 */
 .articles {
-  /* width: 50%; */
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -172,10 +167,11 @@ article {
     border-radius: 8px;
     border: #ebebeb;
   }
-  .logo {
+  .logo-ml {
     width: 50%;
   }
 }
+
 article img {
   width: 100%;
 }
