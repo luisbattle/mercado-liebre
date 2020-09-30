@@ -8,6 +8,7 @@
 }
 
 body {
+  width: 100%;
   background-color: var(--gris-claro);
   margin: 0 !important;
 }
@@ -133,6 +134,8 @@ footer p {
 .footer-copyright {
   margin-top: 20px;
   margin-bottom: 0;
+  padding-bottom: 5px;
+  text-align: center;
 }
 
 /* END FOOTER */
