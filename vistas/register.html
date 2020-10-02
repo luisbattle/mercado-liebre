@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
-  <link rel="stylesheet" href="login.css" />
+  <link rel="stylesheet" href="register.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet" />
 </head>
@@ -27,7 +27,7 @@
     <div class="menu-container">
       <a href=""><i class="fas fa-bars menu-btn"></i></a>
     </div>
-    
+
     <nav id="nav-menu">
       <ul>
         <li><a href="#ofertas">Ofertas</a><i class="fas fa-store"></i></li>
@@ -48,15 +48,55 @@
     </nav>
   </header>
 
+  <section id="banner">
+    <img src="/img-home-banner.jpg" alt="">
+  </section>
+
   <main>
-    <!-- Login -->
-    <div id="main-login-container">
-      <form action="" method="post">
-        <input type="text" placeholder="Nombre de usuario">
-        <input type="password" placeholder="Elegí tu contraseña">
-        <button class="main-login-btn-enviar" type="submit">Enviar</button>
-      </form>
-    </div>
+    <form action="login.html">
+      <div class="d-flex fd-colum ai-center">
+        <input class=" justify-center pd-top-10 pd-left-10 pd-bottom-10 mr-top-10 mr-bottom-10" type="text" name=""
+          id="" placeholder="Nombre y apellido">
+        <input class="justify-center pd-top-10 pd-left-10 pd-bottom-10 mr-top-10 mr-bottom-10" type="text" name="" id=""
+          placeholder="nombre de usuario">
+        <input class="pd-top-10 pd-left-10 pd-bottom-10 mr-top-10 mr-bottom-10" type="text" name="" id=""
+          placeholder="Email">
+        <input class="pd-top-10 pd-left-10 pd-bottom-10 mr-top-10 mr-bottom-10" type="text" name="" id=""
+          placeholder="Fecha de nacimiento">
+        <input class="pd-left-10 pd-top-10 pd-bottom-10 mr-top-10 mr-bottom-10" type="text" name="" id=""
+          placeholder="Domicilio">
+      </div>
+
+
+      <div class="perfil-usuario">
+        <label for="Comprador">Comprador
+          <input type="radio" name="perfil" id="" title="Comprador">
+        </label>
+        <label for="Vendedor">Vendedor
+          <input type="radio" name="perfil" id="" title="Vendedor">
+        </label>
+      </div>
+      <div class="d-flex mr-left-10 mr-right-10">
+        <label for="">Intereses</label>
+        <input class="pd-left-10" type="checkbox" name="" id=""><label for="Electro">Electro</label>
+        <input class="pd-left-10" type="checkbox" name="" id=""><label for="Electro">Moda</label>
+        <input class="pd-left-10" type="checkbox" name="" id=""><label for="Electro">Hogar</label>
+        <input class="pd-left-10" type="checkbox" name="" id=""><label for="Electro">Juguetería</label>
+        <input class="pd-left-10" type="checkbox" name="" id=""><label for="Electro">Vida sana</label>
+      </div>
+      <div>
+        <p>Elegí tu foto de usuario</p>
+        <input type="file" name="" id=""><label for="">No se eligió la foto</label>
+        <input type="text" name="" id="" placeholder="Elegí tu contraseña">
+        <input type="text" name="" id="" placeholder="Confirma tu contraseña">
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+      </div>
+
+    </form>
+
+
+
   </main>
   <!-- FOOTER -->
   <footer>
@@ -77,7 +117,7 @@
         de productos. Es un beneficio de MercadoPuntos
       </p>
     </div>
-      
+
     <div>
       <i class="fas fa-user-shield"></i>
       <p class="footer-titles">Seguridad, de principio a fin</p>

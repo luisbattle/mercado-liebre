@@ -74,12 +74,6 @@ a {
 }
 
 .barra-busqueda-container {
-  /* width: 100%;
-  margin-top: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center; */
 }
 .barra-busqueda {
   width: 90%;
@@ -198,6 +192,7 @@ article img {
 .fa-truck {
   color: #39b54a;
   border: solid 1px #ebebeb;
+  background-color: #ebebeb;
   padding: 5px 5px 5px 5px;
   border-radius: 80%;
   position: relative;
@@ -211,10 +206,11 @@ article img {
 }
 .main-article-detail-container .precios {
   color: black;
+  font-size: 16px;
   margin-right: 5px;
 }
 .main-article-detail-container .descuentos {
-  font-size: 16px;
+  font-size: 12px;
   color: var(--verde);
 }
 .main-article-detail-container .descripcion {

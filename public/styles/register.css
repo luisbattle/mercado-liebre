@@ -9,31 +9,62 @@
 
 /* *******************CUSTOM**************  */
 /* Margin */
+
 .pd-top-10 {
   padding-top: 10px;
 }
+
 .pd-bottom-10 {
-  padding-top: 10px;
+  padding-bottom: 10px;
 }
+
 .pd-left-10 {
   padding-left: 10px;
 }
+
 .pd-right-10 {
   padding-right: 10px;
 }
+
 /* Margin */
 .mr-top-10 {
   margin-top: 10px;
 }
+
 .mr-bottom-10 {
   margin-bottom: 10px;
 }
+
 .mr-left-10 {
   margin-left: 10px;
 }
 
 .mr-right-10 {
   margin-right: 10px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.fd-colum {
+  flex-direction: column;
+}
+
+.fd-row {
+  flex-direction: row;
+}
+
+.justify-center {
+  justify-items: center;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.wd-80 {
+  width: 90%;
 }
 
 /* ****************** END CUSTOM ************* */
@@ -58,23 +89,25 @@ a {
   display: flex;
   flex-direction: column;
 }
-.header-barra-busqueda {
-}
+
+.header-barra-busqueda {}
 
 .header-logo-busqueda {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
 }
+
 .logo-ml {
   width: 30%;
 }
+
 .lupa {
   background-color: white;
 }
 
-.barra-busqueda-container {
-}
+.barra-busqueda-container {}
+
 .barra-busqueda {
   width: 90%;
 }
@@ -99,9 +132,11 @@ a {
   padding: 10px;
   text-align: center;
 }
+
 .menu-btn:hover {
   background-color: #0022aa;
 }
+
 #nav-menu {
   display: none;
 }
@@ -110,41 +145,9 @@ a {
   width: 100%;
 }
 
-#section {
-}
-/* MAIN LOGIN CONTAINER */
-#main-login-container form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-main div form input {
-  width: 80%;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 30px;
-  margin: 20px;
-  border-radius: 3%;
-  border: 0px;
-  background-color: rgb(241, 233, 233);
-}
-.main-login-btn-enviar {
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 80%;
-  color: white;
-  border: 0;
-  border-radius: 4%;
-  background-color: #0044aa;
-}
+#section {}
 
-/* END MAIN LOGIN CONTAINER */
+
 
 /* FOOTER */
 footer {
@@ -152,22 +155,27 @@ footer {
   background-color: white;
   margin-top: 20px;
 }
+
 footer div {
   padding-left: 5%;
   padding-right: 5%;
 }
+
 .footer-titles {
   font-size: 18px;
   font-weight: bold;
   margin: 0;
 }
+
 footer div i {
   margin-top: 30px;
   color: rgb(0, 0, 95);
 }
+
 footer p {
   margin: 0;
 }
+
 .footer-copyright {
   margin-top: 20px;
   margin-bottom: 0;
