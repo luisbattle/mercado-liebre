@@ -191,8 +191,8 @@ article img {
 
 .fa-truck {
   color: #39b54a;
-  border: solid 1px #ebebeb;
-  background-color: #ebebeb;
+  border: solid 1px #39b54a;
+  background-color: white;
   padding: 5px 5px 5px 5px;
   border-radius: 80%;
   position: relative;
